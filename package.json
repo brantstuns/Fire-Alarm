@@ -1,0 +1,25 @@
+{
+  "name": "fire-alarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brantstuns/Fire-Alarm.git"
+  },
+  "author": "Brant Stuns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brantstuns/Fire-Alarm/issues"
+  },
+  "homepage": "https://github.com/brantstuns/Fire-Alarm#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
