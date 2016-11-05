@@ -1,21 +1,15 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./client/index.js'],
-  output: {
-    path: path.join(__dirname, 'public'),
-    filename: 'bundle.js',
-    publicPath: '/'
-  },
+  entry: './client/index.js',
+  output: { path: __dirname, filename: 'bundle.js' },
   module: {
     loaders: [
       {
-        loader: 'babel-loader',
+        loader: 'babel',
         include: [path.join(__dirname, 'client')],
-        query: {
-          cacheDirectory: true
-        }
+        exclude: /node_modules/
       }
     ]
-  }
-}
+  },
+};
